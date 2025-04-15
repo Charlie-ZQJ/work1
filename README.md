@@ -1,5 +1,15 @@
 # 钟泉江 324080203115 24机械1班 github：https://github.com/Charlie-ZQJ/work1
 ## work1.py：用拒绝采样的方法模拟生成了符合下述函数的样本
+```
+公式主体：
+ρ(r) = A × [exp(-b(r + R⊙)/(a + R_pdf))] 
+参数说明：
+R⊙ = 8.3 kpc （太阳到银河系中心的距离）
+A = 20.41 ± 0.31 kpc⁻²
+a = 9.03 ± 1.08
+b = 13.99 ± 1.36
+R_pdf = 3.76 ± 0.42
+```
 ## 代码
 ```
 import numpy as np
